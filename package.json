@@ -11,8 +11,13 @@
   },
   "dependencies": {
     "element-ui": "^2.3.4",
+    "jsdom": "^11.8.0",
+    "location": "0.0.1",
+    "navigator": "^1.0.1",
+    "popper.js": "^1.14.3",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

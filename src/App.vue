@@ -1,18 +1,33 @@
 <template>
   <div id="app">
    	<Header></Header>
-		<Aside></Aside>
+   	<div class="container-fluid" style="margin-top: 80px;">
+   		<div class="row">
+   			<div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1">
+   				<Aside></Aside>
+   				<Content></Content>
+   			</div>
+   			
+   		</div>
+   		
+   	</div>
+   		
+
+		
+		
   </div>
 </template>
 
 <script>
 	import Header from './components/Header.vue'
 	import Aside from './components/Aside.vue'
+	import Content from './components/Content.vue'
 export default {
   name: 'App',
   components: {
   	Header,
-  	Aside
+  	Aside,
+  	Content
   },
    data() {
       const item = {
