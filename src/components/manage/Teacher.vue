@@ -3,7 +3,7 @@
 		<h4>教师</h4>	
 		<p>教师信息</p>
 		<BtnGroup></BtnGroup>
-		<Table></Table>
+		<teacher-table></teacher-table>
 	</div>
 	
 </template>
@@ -11,9 +11,10 @@
 <script>
 	import BtnGroup from './BtnGroup.vue'
 	import Table from './Table'
+	import teacherTable from './teacherTable.vue'
 	export default {
 		components: {
-			Table,
+			teacherTable,
 			BtnGroup
 		}
 	}

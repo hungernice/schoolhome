@@ -4,18 +4,18 @@
 		<p>学生信息</p>
 		<Search></Search>
 		<BtnGroup></BtnGroup>
-		<Table></Table>
+		<student-table></student-table>
 	</div>
 </template>
 
 <script>
 	import Search from './Search.vue'
-	import Table from './Table.vue'
+	import studentTable from './studentTable.vue'
 	import BtnGroup from './BtnGroup.vue'
 	export default {
 		components: {
 			Search,
-			Table,
+			studentTable,
 			BtnGroup
 		}
 	}

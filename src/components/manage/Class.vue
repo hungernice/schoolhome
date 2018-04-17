@@ -4,16 +4,19 @@
 		<p>班级信息</p>
 		<BtnGroup></BtnGroup>
 		<Table></Table>
+		<Deldialog></Deldialog>
 	</div>
 </template>
 
 <script>
 	import BtnGroup from './BtnGroup.vue'
 	import Table from './Table.vue'
+	import Deldialog from './Deldialog.vue'
 	export default {
 		components: {
 			BtnGroup,
-			Table
+			Table,
+			Deldialog
 		}
 	}
 </script>
